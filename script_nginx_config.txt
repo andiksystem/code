@@ -31,3 +31,5 @@ echo 'server {
 
     listen 80;
 }' > /etc/nginx/sites-available/sample-app.mooo.com.conf
+
+ln -s /etc/nginx/sites-available/sample-app.mooo.com.conf /etc/nginx/sites-enabled/sample-app.mooo.com.conf
